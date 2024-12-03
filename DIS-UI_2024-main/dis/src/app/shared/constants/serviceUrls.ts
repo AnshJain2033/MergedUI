@@ -52,16 +52,22 @@ export const serviceUrls: any = {
     addStaffBasicProfile: urls.user + '/addStaffBasicProfile',
     userWorkExperience: urls.user + '/userWorkExperience',
     addUserWorkExperience: urls.user + '/addUserWorkExperience',
+    deleteUserWorkExperience: urls.user + '/deleteUserWorkExperience',
+    deleteUserQualification: urls.user + '/deleteUserQualification',
     userResearchWork: urls.user + '/userResearchWork',
     addUserResearchWork: urls.user + '/addUserResearchWork',
+    deleteUserResearchWork: urls.user + '/deleteUserResearchWork',
     userInternship: urls.user + '/userInternship',
     addUserInternship: urls.user + '/addUserInternship',
+    deleteUserInternship: urls.user + '/deleteUserInternship',
     userCompetitiveExams: urls.user + '/userCompetitiveExams',
     addUserCompetitiveExams: urls.user + '/addUserCompetitiveExams',
+    deleteUserCompetitiveExams: urls.user + '/deleteUserCompetitiveExam',
     userCulturalActivityAchievements: urls.user + '/userCulturalActivityAchievements',
     userTechnicalActivity: urls.user + '/userTechnicalActivity',
     addUserCulturalActivityAchievements: urls.user + '/addUserCulturalActivityAchievements',
     addUserTechnicalActivity: urls.user + '/addUserTechnicalActivity',
+    deleteUserTechnicalActivity: urls.user + '/deleteUserTechnicalActivity',
     getStaffdata: urls.user + '/staffProfile/getStaffData',
     getPanelOfTheory: urls.user + '/panel/getPanelOfTheory',
     createPanelOfTheory: urls.user + '/panel/createPanelOfTheory',
@@ -127,5 +133,12 @@ export const serviceUrls: any = {
     deleteLeaveByLeaveId:urls.administration+'/home/deleteLeaveByLeaveId',
     getLeaveByAssignedID:urls.administration+'/home/getLeaveByAssignedToId',
     putLeaveStatusByLeaveId:urls.administration+'/home/putLeaveStatusByLeaveId',
-    addLeaveSupportingDocument:urls.administration+'/home/postLeaveSupportingDocumentById'
+    addLeaveSupportingDocument:urls.administration+'/home/postLeaveSupportingDocumentById',
+
+
+    //admin
+
+    uploadCsv: urls.file+ '/file/upload',
+
+
   };
